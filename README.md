@@ -8,30 +8,30 @@ IOASYS BACKEND CHALLENGE - GUILHERME CORRÊA
 
 - Admin
 
-[X] Should be able to create a admin user
-[X] Should be able to edit a admin user
-[X] Should be able to delete (logical) a admin user
+[x] Should be able to create a admin user
+[x] Should be able to edit a admin user
+[x] Should be able to delete (logical) a admin user
 
 - User
 
-[X] Should be able to create a user
-[X] Should be able to edit a user
-[X] Should be able to delete (logical) a user
+[x] Should be able to create a user
+[x] Should be able to edit a user
+[x] Should be able to delete (logical) a user
 
 - Authentication
 
-[X] Should be able to authenticate a user using JWT
+[x] Should be able to authenticate a user using JWT
 
 - Movies
 
-[X] Should be able to create a movie (only a admin user can create)
-[X] Should be able to list movies
-[X] Should be able to filter movies by director, name, genre or actor
-[X] Should be able to show movie details and the movie average rating from all users
+[x] Should be able to create a movie (only a admin user can create)
+[x] Should be able to list movies
+[x] Should be able to filter movies by director, name, genre or actor
+[x] Should be able to show movie details and the movie average rating from all users
 
 - Rating
 
-[X] A user should be able to rate a movie by a score between 0 and 4
+[x] A user should be able to rate a movie by a score between 0 and 4
 
 ## Non-functional Requirements
 
