@@ -8,9 +8,9 @@ IOASYS BACKEND CHALLENGE - GUILHERME CORRÊA
 
 - Admin
 
-[x] Should be able to create a admin user
-[x] Should be able to edit a admin user
-[x] Should be able to delete (logical) a admin user
+- [x] Should be able to create a admin user
+- [x] Should be able to edit a admin user
+- [x] Should be able to delete (logical) a admin user
 
 - User
 
