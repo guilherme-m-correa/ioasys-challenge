@@ -49,10 +49,9 @@ IOASYS BACKEND CHALLENGE - GUILHERME CORRÊA
 2. Run `npm install` to install dependencies<br />
 3. Run `cp .env.example .env` to copy .env example and setup enviroment variables for the project<br />
 4. Run `cp ormconfig.example .ormconfig.jon` to copy TypeORM config file and setup the database variables<br />
-5. Run `npm run build` to build<br />
-6. Run `npm run migration:run` to create the database<br />
-7. Run `npm run seed` to seed the database with some data (optional)<br />
-8. Run `npm run start:dev` to start the server<br />
+5. Run `npm run migration:run` to create the database<br />
+6. Run `npm run seed` to seed the database with some data<br />
+7. Run `npm run start:dev` to start the server<br />
 
 ## Testing
 
