@@ -1,0 +1,24 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "postgres",
+  "database": "ioasys",
+  "entities": [
+    "src/entities/**/*.{.ts,.js}"
+  ],
+  "migrations": [
+    "src/database/migrations/**/*.{.ts,.js}"
+  ],
+  "migrationsDir": [
+    "src/database/migrations"
+  ],
+  "seeds": ["src/database/seeds/**/*{.ts,.js}"],
+  "factories": ["src/database/factories/**/*{.ts,.js}"],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/database/migrations"
+  },
+  "logging": true
+}

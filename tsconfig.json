@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "paths": {
+      "@controllers/*" : ["controllers/*"],
+      "@config/*" : ["config/*"],
+      "@validators/*" : ["validators/*"],
+      "@errors/*" : ["errors/*"],
+      "@entities/*" : ["entities/*"],
+      "@providers/*" : ["providers/*"],
+      "@middlwares/*" : ["middlewares/*"],
+      "@repositories/*" : ["repositories/*"],
+      "@factories/*" : ["factories/*"],
+      "@services/*" : ["services/*"],
+      "@contracts/*" : ["contracts/*"],
+      "@dtos/*" : ["dtos/*"],
+      "@utils/*" : ["utils/*"]
+    }
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "coverage",
+    "jest.config.js",
+    "jest.setup.ts",
+    "babel.config.js",
+    "prettier.config.js"
+  ]
+}
