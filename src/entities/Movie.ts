@@ -77,6 +77,6 @@ export default class Movie extends Base {
   })
   genres: Genre[];
 
-  @OneToMany(() => Rating, rating => rating.movie)
-  ratings?: Rating[];
+  @OneToMany(() => Rating, rating => rating.movie, { eager: true })
+  ratings: Rating[];
 }
