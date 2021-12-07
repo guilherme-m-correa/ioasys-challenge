@@ -20,7 +20,7 @@
       "@errors/*" : ["errors/*"],
       "@entities/*" : ["entities/*"],
       "@providers/*" : ["providers/*"],
-      "@middlwares/*" : ["middlewares/*"],
+      "@middlewares/*" : ["middlewares/*"],
       "@repositories/*" : ["repositories/*"],
       "@factories/*" : ["factories/*"],
       "@services/*" : ["services/*"],

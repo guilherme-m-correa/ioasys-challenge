@@ -7,7 +7,7 @@ import createRatingValidator from '@validators/CreateRatingValidator';
 import SessionController from '@controllers/SessionController';
 import MoviesController from '@controllers/MoviesController';
 import RatingsController from '@controllers/RatingsController';
-import auth from '@middlwares/AuthMiddleware';
+import auth from '@middlewares/AuthMiddleware';
 import { Router } from 'express';
 
 const routes = Router();
