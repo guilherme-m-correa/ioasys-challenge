@@ -123,6 +123,7 @@ describe('CreateMovieService', () => {
       actors: [actor],
       writers: [writer],
       genres: [genre],
+      ratings: [],
       createdAt: now,
       updatedAt: now,
     };
@@ -293,6 +294,7 @@ describe('CreateMovieService', () => {
       actors: [actor],
       writers: [writer],
       genres: [genre],
+      ratings: [],
       createdAt: now,
       updatedAt: now,
     };
@@ -378,6 +380,7 @@ describe('CreateMovieService', () => {
       actors: [actor],
       writers: [writer],
       genres: [genre],
+      ratings: [],
       createdAt: now,
       updatedAt: now,
     };
@@ -465,6 +468,7 @@ describe('CreateMovieService', () => {
       actors: [actor],
       writers: [writer],
       genres: [genre],
+      ratings: [],
       createdAt: now,
       updatedAt: now,
     };
@@ -552,6 +556,7 @@ describe('CreateMovieService', () => {
       actors: [actor],
       writers: [writer],
       genres: [genre],
+      ratings: [],
       createdAt: now,
       updatedAt: now,
     };
@@ -639,6 +644,7 @@ describe('CreateMovieService', () => {
       actors: [actor],
       writers: [writer],
       genres: [genre],
+      ratings: [],
       createdAt: now,
       updatedAt: now,
     };

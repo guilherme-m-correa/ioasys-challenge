@@ -95,11 +95,7 @@ describe('UpdateUserService', () => {
       updatedAt: now,
     };
 
-    jest.spyOn(rolesRepository, 'findByName').mockResolvedValue(role);
-
     jest.spyOn(rolesRepository, 'findByName').mockResolvedValue(role2);
-
-    jest.spyOn(userRepository, 'create').mockResolvedValue(user);
 
     jest.spyOn(userRepository, 'findById').mockResolvedValue(user);
 
@@ -129,6 +125,43 @@ describe('UpdateUserService', () => {
       email: 'updated@gmail.com',
       password: 'updated_password',
       roles: [],
+    };
+
+    const result = updateUserService.execute(requestData);
+
+    await expect(result).rejects.toBeInstanceOf(AppError);
+  });
+
+  it('should not be able to update a user providing a non existing role', async () => {
+    const now = new Date();
+
+    const role = {
+      id: '1',
+      name: 'admin',
+      description: 'Administrator',
+      createdAt: now,
+      updatedAt: now,
+    };
+
+    const user = {
+      id: '1',
+      name: 'John Doe',
+      email: 'john.doe@gmail.com',
+      password: 'hashed_password',
+      isActive: true,
+      roles: [role],
+      createdAt: now,
+      updatedAt: now,
+    };
+
+    jest.spyOn(userRepository, 'findById').mockResolvedValue(user);
+
+    const requestData = {
+      userId: user.id,
+      name: 'Updated',
+      email: 'updated@gmail.com',
+      password: 'updated_password',
+      roles: ['non-existing-role'],
     };
 
     const result = updateUserService.execute(requestData);

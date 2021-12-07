@@ -101,6 +101,7 @@ describe('CreateRatingService', () => {
       actors: [actor],
       writers: [writer],
       genres: [genre],
+      ratings: [],
       createdAt: now,
       updatedAt: now,
     };
@@ -193,6 +194,7 @@ describe('CreateRatingService', () => {
       actors: [actor],
       writers: [writer],
       genres: [genre],
+      ratings: [],
       createdAt: now,
       updatedAt: now,
     };
@@ -256,6 +258,7 @@ describe('CreateRatingService', () => {
       actors: [actor],
       writers: [writer],
       genres: [genre],
+      ratings: [],
       createdAt: now,
       updatedAt: now,
     };
@@ -375,6 +378,7 @@ describe('CreateRatingService', () => {
       actors: [actor],
       writers: [writer],
       genres: [genre],
+      ratings: [],
       createdAt: now,
       updatedAt: now,
     };
