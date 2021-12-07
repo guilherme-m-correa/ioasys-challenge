@@ -59,6 +59,6 @@ Run `npm run test` to run the tests.
 
 ## Documentation
 
-[Postman Collection](https://web.postman.co/workspace/IOASYS-BACKEND-TEST~96b36704-ccc4-40ec-8d7c-1afd0442f43a/collection/10405579-67c8d6e5-a214-4882-9c1d-d4ea55f22412)
+[Postman Collection](https://www.postman.com/guilhermematheuscorrea/workspace/ioasys-backend-test/collection/10405579-67c8d6e5-a214-4882-9c1d-d4ea55f22412)
 
 Any doubts? Feel free to contact me.
