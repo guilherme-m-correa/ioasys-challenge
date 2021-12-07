@@ -6,6 +6,7 @@ module.exports = {
   clearMocks: true,
   collectCoverage: true,
   coverageDirectory: 'coverage',
+  collectCoverageFrom: ['<rootDir>/src/services/**/*.ts'],
   coverageProvider: 'v8',
   coverageReporters: ['json', 'text', 'lcov', 'clover'],
   maxWorkers: '50%',
